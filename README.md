@@ -9,11 +9,11 @@ The MITM attacker routes the traffic in the laptop through NFQUEUE so that packe
 The client RPi is toggling button1 and button2 of server RPi. The MITM attacker modifies the switch number before rerouting the data to server.
 
 Requirements:
-Ubuntu
+Ubuntu,
 Python 3
 
 Libraries to be installed:
-Scapy
+Scapy,
 NetfilterQueue
 
 Credits:
